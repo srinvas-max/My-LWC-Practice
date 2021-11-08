@@ -1,0 +1,8 @@
+<aura:component implements='flexipage:availableForAllPageTypes'>
+    <aura:attribute name="colorCodeText" type="String"/>
+    <lightning-card title="change Text Color">
+        <div class="slds-text-body_small">The quick brown fox jumps over the lazy dog.</div>
+
+    </lightning-card>
+<c:colorPicker/>
+</aura:component>	
